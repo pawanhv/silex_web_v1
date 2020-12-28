@@ -1,0 +1,21 @@
+{
+  "name": "web_editor",
+  "version": "1.0.0",
+  "description": "single page mode",
+  "main": "index.js",
+  "dependencies": {
+    "file-system": "^2.2.2",
+    "prodotype": "^1.0.23",
+    "pug-cli": "^1.0.0-alpha6",
+    "serve-static": "^1.14.1",
+    "silex-website-builder": "^2.7.4",
+    "unifile": "^2.0.15"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js",
+    "build": "pug index.pug -o dist/"
+  },
+  "author": "PHV",
+  "license": "MIT"
+}
